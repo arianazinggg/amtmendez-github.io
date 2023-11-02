@@ -15,10 +15,6 @@
   background-size: cover; /* Adjusts the image size to cover the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
-
-.container {
-  /* Additional styling for your content container, such as background color or padding */
-}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3739,8 +3735,8 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-color: rgb(248, 158, 158);
+  --bs-navbar-hover-color: rgba(226, 147, 147, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
