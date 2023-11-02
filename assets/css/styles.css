@@ -10,6 +10,15 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ body {
+  background-image: url('assets/background.png');
+  background-size: cover; /* Adjusts the image size to cover the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.container {
+  /* Additional styling for your content container, such as background color or padding */
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
